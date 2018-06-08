@@ -9,8 +9,13 @@ body {
   vertical-align: bottom;
 }
 
+.item {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 4;
+}
+
 h1 {
-  font-size: 75px
+  font-size: 85px
 }
 
 .form-control {

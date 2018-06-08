@@ -23,6 +23,7 @@ var beepboopFunction = function(number){
 $(document).ready(function(){
   $("#beepboop-form").submit(function(event){
     event.preventDefault();
+    $("input#message-input").addClass('animated shake');
     var userInput = parseInt($('input#message-input').val());
     var userResult = beepboopFunction(userInput);
     $("#message-output").text(userResult);
