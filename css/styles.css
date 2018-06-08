@@ -18,10 +18,10 @@ h1 {
   background-color: rgba(0,0,0,0.1);
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 45%;
   text-align: center;
   font-size: 40px;
-  color: yellow;
+  color: #F3F315;
 }
 
 button {
@@ -32,9 +32,14 @@ button {
 }
 
 button:hover {
-  color: green;
+  color: #168C00;
 }
 
 .output-area {
-  color: yellow;
+  color: #F3F315;
+}
+
+#end {
+  font-size: 12px;
+  text-align: center;
 }
