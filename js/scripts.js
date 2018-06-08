@@ -19,8 +19,6 @@ var beepboopFunction = function(number){
     return result.toString();
   }
 
-
-
 // user interface
 $(document).ready(function(){
   $("#beepboop-form").submit(function(event){
