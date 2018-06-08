@@ -6,9 +6,10 @@ var beepboopFunction = function(number){
     return "Enter higher number."
   }else if(number > 0 && number%3 === 0){
     return "I'm sorry, Dave. I'm afraid I can't do that.";
+  } else if(number.toString().indexOf('1') > -1){
+    return "Boop!";
   }
 }
-
 
 
 

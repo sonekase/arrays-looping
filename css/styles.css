@@ -1,0 +1,40 @@
+body {
+  background: url('../img/chief.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  text-align: center;
+  font-size: 55px;
+  font-family: Phosphate;
+  vertical-align: bottom;
+}
+
+h1 {
+  font-size: 75px
+}
+
+.form-control {
+  border-radius: 15em;
+  background-color: rgba(0,0,0,0.1);
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  text-align: center;
+  font-size: 40px;
+  color: yellow;
+}
+
+button {
+  color: #FFF;
+  border-radius: 15em;
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+}
+
+button:hover {
+  color: green;
+}
+
+.output-area {
+  color: yellow;
+}
