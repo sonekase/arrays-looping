@@ -49,3 +49,19 @@ button:hover {
   font-size: 12px;
   text-align: center;
 }
+
+.icons {
+vertical-align: bottom;
+text-align: center;
+font-size: 35px;
+color: #FFF;
+padding: 3em;
+}
+
+.icons a {
+color: #FFF;
+}
+
+a:hover {
+color: #168C00;
+}
