@@ -1,8 +1,14 @@
 // business logic
-var beepboopFunction = function(string){
-  return string;
+var beepboopFunction = function(number){
+  var result = [];
 
-};
+  if(number < 0){
+    return "Enter higher number."
+  }else if(number > 0 && number%3 === 0){
+    return "I'm sorry, Dave. I'm afraid I can't do that.";
+  }
+}
+
 
 
 
@@ -17,11 +23,9 @@ var beepboopFunction = function(string){
 $(document).ready(function(){
   $("#beepboop-form").submit(function(event){
       event.preventDefault();
-      var userInput = $("input#message-input").val();
+      var userInput = parseInt($('input#message-input').val());
       var userResult = beepboopFunction(userInput);
       $("#message-output").text(userResult);
-
-
-
+      $('#input-form').trigger('reset');
   });
 });
